@@ -1,26 +1,45 @@
 import React from 'react';
-import logo from './logo.svg';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Home from './Home';
+import About from './About';
+import Generator from './Generator';
+import Navbar from 'react-bootstrap/Navbar';
+import Nav from 'react-bootstrap/Nav';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component {
+
+  constructor(){
+    super()
+    this.state={
+      activeKey:window.location.pathname
+    }
+  }
+
+  render() {
+    return (
+      <Router>
+        <div>
+          <Navbar bg="primary" variant="dark" expand="lg">
+            <Navbar.Brand href="/">Workout Generator App</Navbar.Brand>
+            <Navbar.Toggle aria-controls="basic-navbar-nav" />
+            <Navbar.Collapse id="basic-navbar-nav">
+              <Nav className="mr-auto" activeKey={this.state.activeKey}>
+                <Nav.Link href="/about" eventKey="/about">About</Nav.Link>
+                <Nav.Link href="/generator" eventKey="/generator">Generator</Nav.Link>
+              </Nav>
+            </Navbar.Collapse>
+          </Navbar>
+        </div>
+        <Switch>
+          <Route exact path="/" render={() => (<Home />)} />
+          <Route exact path="/about" render={() => (<About />)} />
+          <Route exact path="/generator" render={() => (<Generator />)} />
+        </Switch>
+      </Router>
+    )
+  }
 }
 
 export default App;
