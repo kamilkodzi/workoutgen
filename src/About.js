@@ -7,7 +7,7 @@ import Col from 'react-bootstrap/Col';
 
 function About() {
     return (
-        <Jumbotron className="jumbo-about d-flex min-vh-100 align-items-center" style={{ fontFamily: "Lato" }} fluid>
+        <Jumbotron className="jumbo-about d-flex min-vh-100 align-items-center" fluid>
             <Container className="text-center">
           
                 <h1 style={{ fontSize: '6.2em', color: 'black' }}>
