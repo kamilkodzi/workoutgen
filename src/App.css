@@ -8,3 +8,16 @@
   height: 100%;
   color:white;
 }
+
+.jumbo-about{
+  background-image: url('./passionAbout.jpg');
+  background-size: cover;
+  height: 100%;
+  color:black;
+}
+.jumbo-generator{
+  background-image: url('./generator.jpg');
+  background-size: cover;
+  height: 100%;
+  color:white;
+}

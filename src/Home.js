@@ -6,7 +6,7 @@ import ButtonGroup from 'react-bootstrap/ButtonGroup';
 
 function Home() {
     return (
-        <Jumbotron className="jumbo-home d-flex min-vh-100" style={{ fontFamily: "Lato" }} fluid>
+        <Jumbotron className="jumbo-home d-flex min-vh-100 align-items-center" style={{ fontFamily: "Lato" }} fluid>
             <Container className="text-center">
                 <h1 style={{ fontSize: '6.2em', color: 'white' }}>
                     Workout generator App</h1>
