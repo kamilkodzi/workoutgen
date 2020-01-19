@@ -36,6 +36,11 @@ color: #787171;
 color: white;
 }
 
-.about-listItem{
-  opacity: 0.6;
+.about-listItem>p{
+  color: white;
+}
+
+.about-listItem,ListGroup.Item{
+  opacity: 0.9;
+  color: white;
 }

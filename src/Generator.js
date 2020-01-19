@@ -107,7 +107,7 @@ class Generator extends React.Component {
                                                         <option>60</option>
                                                     </Form.Control>
                                                 </Form.Group>
-                                                <Button type='submit' variant="primary">Generate workout</Button>
+                                                <Button type='submit' variant="light">Generate workout</Button>
                                             </Col>
                                         </Row>
 

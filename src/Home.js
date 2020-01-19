@@ -12,8 +12,8 @@ function Home() {
                     Workout generator App</h1>
                 <p>We are an automate AI platform for  humans.</p>
                 <ButtonGroup aria-label="Basic example">
-                    <Button href="/about" variant="primary">About</Button>
-                    <Button href="generator" variant="primary">Generator</Button>
+                    <Button href="/about" variant="light">About</Button>
+                    <Button href="generator" variant="light">Generator</Button>
                 </ButtonGroup>
             </Container>
         </Jumbotron>

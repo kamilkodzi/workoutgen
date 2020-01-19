@@ -13,11 +13,11 @@ function About() {
                 <p>Group of people was created something different.</p>
                 <Row>
                     <Col md={{offset:4, span:4}} lg={{offset:4, span:4}} xl={{offset:4, span:4}}>
-                        <ListGroup>
-                            <ListGroup.Item className="about-listItem" variant="dark">Love fitness</ListGroup.Item>
-                            <ListGroup.Item className="about-listItem" variant="dark">Love workout</ListGroup.Item>
-                            <ListGroup.Item className="about-listItem" variant="dark">Love progress</ListGroup.Item>
-                            <ListGroup.Item className="about-listItem" variant="dark">born to be fit!</ListGroup.Item>
+                        <ListGroup className="about-listItem">
+                            <ListGroup.Item  variant="light">Love fitness</ListGroup.Item>
+                            <ListGroup.Item  variant="light">Love workout</ListGroup.Item>
+                            <ListGroup.Item  variant="light">Love progress</ListGroup.Item>
+                            <ListGroup.Item  variant="light">Born to be fit!</ListGroup.Item>
                         </ListGroup>
                     </Col>
                 </Row>
