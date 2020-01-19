@@ -9,20 +9,15 @@ function About() {
     return (
         <Jumbotron className="jumbo-about d-flex min-vh-100 align-items-center" fluid>
             <Container className="text-center">
-          
-                <h1 style={{ fontSize: '6.2em', color: 'black' }}>
-                    About Us</h1>
-             
+                <h1 className="h1-about">About Us</h1>
                 <p>Group of people was created something different.</p>
-     
-
                 <Row>
                     <Col md={{offset:4, span:4}} lg={{offset:4, span:4}} xl={{offset:4, span:4}}>
                         <ListGroup>
-                            <ListGroup.Item variant="dark">Love fitness</ListGroup.Item>
-                            <ListGroup.Item variant="dark">Love workout</ListGroup.Item>
-                            <ListGroup.Item variant="dark">Love progress</ListGroup.Item>
-                            <ListGroup.Item variant="dark">born to be fit!</ListGroup.Item>
+                            <ListGroup.Item className="about-listItem" variant="dark">Love fitness</ListGroup.Item>
+                            <ListGroup.Item className="about-listItem" variant="dark">Love workout</ListGroup.Item>
+                            <ListGroup.Item className="about-listItem" variant="dark">Love progress</ListGroup.Item>
+                            <ListGroup.Item className="about-listItem" variant="dark">born to be fit!</ListGroup.Item>
                         </ListGroup>
                     </Col>
                 </Row>

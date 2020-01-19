@@ -8,7 +8,7 @@ function Home() {
     return (
         <Jumbotron className="jumbo-home d-flex min-vh-100 align-items-center" fluid>
             <Container className="text-center">
-                <h1 style={{ fontSize: '6.2em', color: 'white' }}>
+                <h1 style={{ color: 'white' }}>
                     Workout generator App</h1>
                 <p>We are an automate AI platform for  humans.</p>
                 <ButtonGroup aria-label="Basic example">

@@ -10,21 +10,32 @@ body {
   background-size: cover;
   height: 100%;
   color:white;
+  margin-bottom: 0px;
 }
 
 .jumbo-about{
   background-image: url('./passionAbout.jpg');
   background-size: cover;
   height: 100%;
-  color:black;
+  color:white;
+  margin-bottom: 0px;
 }
 .jumbo-generator{
   background-image: url('./generator.jpg');
   background-size: cover;
   height: 100%;
   color:white;
+  margin-bottom: 0px;
 }
 
 .card-workout{
 color: #787171;
+}
+
+.h1-about{
+color: white;
+}
+
+.about-listItem{
+  opacity: 0.6;
 }
